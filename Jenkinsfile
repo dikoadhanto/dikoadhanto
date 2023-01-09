@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+		System.setProperty("org.jenkinsci.plugins.durabletask.BourneShellScript.FORCE_BINARY_WRAPPER", "true");
                 sh 'node --version'
             }
         }
