@@ -1,0 +1,12 @@
+<template>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>PORT</th>
+      <th>IDENTIFIER</th>
+      <th>DESKRIPSI</th>
+      <th>VALUE</th>
+      <th>UNIT</th>
+    </tr>
+  </thead>
+</template>
